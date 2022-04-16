@@ -150,9 +150,7 @@ const start = async (): Promise<void> => {
                 for (const vehicle of res.data) {
                     console.log(`${year},${carBrand},${model},${vehicle.engine}, ${vehicle.code}`)
 
-                    fs.appendFileSync('all_cars.csv', `
-                        ${year},${carBrand},${model},${vehicle.engine}, ${vehicle.code}
-                    `.trim())
+                    fs.appendFileSync('all_cars.csv', `${year},${carBrand},${model},${vehicle.engine}, ${vehicle.code}\n`)
                 }
             }
         }
