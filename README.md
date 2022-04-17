@@ -1,9 +1,9 @@
-# Advanced Auto Parts API fetcher
+# All Cars
 
 ```
-git clone git@github.com:zacharytyhacz/advanced-auto-api.git
+git clone git@github.com:zacharytyhacz/all_cars.git
 
-cd advaned-auto-api
+cd all_cars
 
 yarn install
 
